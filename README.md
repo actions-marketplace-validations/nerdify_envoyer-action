@@ -11,7 +11,7 @@ workflow "Deploy Envoyer" {
 }
 
 action "deploy" {
-  uses = "nerdify/envoyer-action@master"
+  uses = "nerdify/envoyer-action@1.0.0"
   secrets = ["ENVOYER_DEPLOY_URL"]
 }
 ```
